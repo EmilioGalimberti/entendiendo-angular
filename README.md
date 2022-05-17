@@ -23,21 +23,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## entendiendo-angular
+# entendiendo-angular
 
 ## ===========CAPITULO 2==========
 
-## 2
+### 2
 
  "empezando https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/capitulo-2-primeros-pasos"
 
-## 2.2 
+### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/capitulo-22-mi-primera-app">2.2 primeros pasos basicos<a>
 
-https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/capitulo-22-mi-primera-app"
 
-"Algunas definiciones utiles: import { Component } from '@angular/core';
 
-"@Component({ selector: 'my-app', template: <"h1">Hello {{name}}<"/h1"> }) export class AppComponent { name = 'Angular'; }"
 
 " TS, importa "algo", que casualmente se llama componente, lo que quiere decir es que va a traer de "angular => core" la funcionalidad de componente.
 
@@ -46,7 +43,9 @@ Lo que se ve con un "@" (arroba) es un decorador (que es el componente) que lo q
 Muy bien, ya te diste cuenta no? El " { { } } " ( si doble llave, que lo podriamos llamar de muchas formas, para nosotros va a ser doble llave) es lo que une el HTML o Template con la Clase... por lo tanto, cuando escribimos en nuestro template _ _lo que va a hacer Angular es buscar una variable en la clase correspondiente con el mismo nombre (respetando mayusculas y minusculas ) y unir el contenido de la variable con la vista del template."
 
 
-## 2.3 Instalar ANGULAR CLI
+### 2.3 ANGULAR CLI
+
+<a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/23-angular-cli"> ANGULAR CLI <a>
 
 npm install -g angular-cli
 
@@ -54,7 +53,7 @@ ng new entendiendo-angular
 
 ng serve
 
-## COMANDOS
+### COMANDOS
 Las tareas que vamos a poder hacer con el CLI son:
 * Crear una aplicación => ng new NombreAPP
 * Crear un componente => ng g component mi-componente
@@ -74,18 +73,6 @@ Las tareas que vamos a poder hacer con el CLI son:
 * Ejecutar un server local => ng serve
 * Ejecutar un server con ssl => ng serve --ssl true
 
-## 2.4 - Estructura de una AngularWebAPP
+### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/24-arquitectura-de-una-angular-webapp">2.4 - Estructura de una AngularWebAPP<a>
 
-Vamos a arrancar por los archivos de la carpeta raiz.
-
-* .editorconfig => es de VSC es el archivo de configuracion.. no haremos nada sobre el..
-* .gitignore => El CLI nos genera un git ya para que podamos subir nuestro codigo a algun repositorio de GIT, puede ser GITHUB o cualquiera que tenga soporte sobre GIT. Y ya que estan nos dejan todo preparado para ignorar las dependencias que no tiene sentido que subamos.
-* angular-cli.json => Es este archivo vamos a ver la configuración que genero el CLI para el proyecto.
-* karma.conf.js => Es el archivo de la configuracion de Karma para los tests.
-* package.json => Es la configuracion para descargar las dependencias de NodeJS.
-* protractor.conf.js => Es la configuracion de jasmine para los test e2e.
-* README.md => es el readme para git, que te explica algunos comandos del CLI para quien se baje el proyecto.
-* tslint.json => es la configuracion de lint para typescript.
-* /e2e => aqui tendremos los test e2e para ejecutar, por defecto ya viene con uno, que verifica si en la pantalla existe un H1 que tenga el texto "app works!".
-* /node_modules => aqui estan todas las dependencias del proyecto
-* /src => aca es donde mas vamos a estar , diria yo que el 99.9% del tiempo
+## 2.5 - DIRECTIVAS
