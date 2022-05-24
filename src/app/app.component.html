@@ -20,5 +20,28 @@
   </ul>
 </div>
 
+<div>
 <h1>Output</h1>
 <output-component (outputEmiter)="outputEmiter($event)"></output-component>
+</div>
+
+<!--Directivas
+Las directivas son "atributos" que vamos a agregar a nuestro codigo.-->
+<div>
+  <a>---------------------------------------------------</a> <br>
+  <!--los corchetes nos sirven para "bindear" lo que ponemos adentro con 
+    Angular... lo que hicimos es una "directiva" comun.. con un "Atributo"
+    cambiamos nuestro background... lo que hacemos con esto es pasarle 
+    los parametros a nuestra webApp y cambiarle los parametros a nuestro gusto...-->
+  <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-6-directivas/capitulo-5-directivas">DIRECTIVAS</a>
+  <!--[ ] => le genera una referencia al elemento completo
+  style.background => hace referencia a lo que quiere obtener del elemento que obtuvimos.
+  =" 'lime' " => le asigna el color "lime" pero con esto podemos ver que la directiva, obtiene una referencia del elemento en el que esta y luego modifica sus parametros para hacer un "custom" de lo que necesitamos..-->
+  <h1 [style.background]="'lime'">
+    {{title}}
+  </h1>
+
+  <h1 [style.background]="'lime'" appCustomDirectives>
+    {{title}}
+  </h1>
+</div>

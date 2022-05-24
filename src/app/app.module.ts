@@ -11,6 +11,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InputComponent } from './input/input.component';
 import { OutputComponent } from './output/output.component';
+import { CustomDirectivesDirective } from './customDirectives/custom-directives.directive';
+
 
 
 /*NgModule es un decorador que se utiliza en app.module.ts  @NgModule toma un objeto de metadatos 
@@ -24,6 +26,8 @@ que indica a Angular cómo compilar y ejecutar código de módulo*/
     AppComponent,
     InputComponent,
     OutputComponent,
+    CustomDirectivesDirective,
+    
   ],
   /*Imports: este arreglo va a tener "normalmente" lo que contiene  *Module , lo que quiere decir 
   es que normalmente todo lo que termina con Module va a estar ahi, normalmente son librerias y 

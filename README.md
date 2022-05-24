@@ -77,3 +77,5 @@ Las tareas que vamos a poder hacer con el CLI son:
 ### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/25-directivas"> 2.5 - DIRECTIVAS (NgIf,NgSwitch...)</a>
 
 # <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-3-componentes/capitulo-3-componentes">3 - Componentes</a>
+
+# <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-6-directivas/capitulo-5-directivass">6 - Directivas</a>
