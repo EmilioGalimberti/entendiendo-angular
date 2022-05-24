@@ -25,14 +25,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # entendiendo-angular
 
-## ===========CAPITULO 2==========
+# ===========CAPITULO 2==========
 
 ### 2
 
  "empezando https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/capitulo-2-primeros-pasos"
 
-### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/capitulo-22-mi-primera-app">2.2 primeros pasos basicos<a>
-
+### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/capitulo-22-mi-primera-app">2.2 primeros pasos basicos</a>
 
 
 
@@ -43,9 +42,9 @@ Lo que se ve con un "@" (arroba) es un decorador (que es el componente) que lo q
 Muy bien, ya te diste cuenta no? El " { { } } " ( si doble llave, que lo podriamos llamar de muchas formas, para nosotros va a ser doble llave) es lo que une el HTML o Template con la Clase... por lo tanto, cuando escribimos en nuestro template _ _lo que va a hacer Angular es buscar una variable en la clase correspondiente con el mismo nombre (respetando mayusculas y minusculas ) y unir el contenido de la variable con la vista del template."
 
 
-### 2.3 ANGULAR CLI
+### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/23-angular-cli">2.3 ANGULAR CLI </a>
 
-<a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/23-angular-cli"> ANGULAR CLI <a>
+
 
 npm install -g angular-cli
 
@@ -73,6 +72,8 @@ Las tareas que vamos a poder hacer con el CLI son:
 * Ejecutar un server local => ng serve
 * Ejecutar un server con ssl => ng serve --ssl true
 
-### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/24-arquitectura-de-una-angular-webapp">2.4 - Estructura de una AngularWebAPP<a>
+### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/24-arquitectura-de-una-angular-webapp">2.4 - Estructura de una AngularWebAPP (carpetas)</a>
 
-## 2.5 - DIRECTIVAS
+### <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-2-primeros-pasos/25-directivas"> 2.5 - DIRECTIVAS (NgIf,NgSwitch...)</a>
+
+# <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-3-componentes/capitulo-3-componentes">3 - Componentes</a>
