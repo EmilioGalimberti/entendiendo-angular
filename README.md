@@ -79,3 +79,7 @@ Las tareas que vamos a poder hacer con el CLI son:
 # <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-3-componentes/capitulo-3-componentes">3 - Componentes</a>
 
 # <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-6-directivas/capitulo-5-directivass">6 - Directivas</a>
+
+# <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-7-componentes-avanzados/capitulo-6-componentes-avanzados">7 - Componentes Avanzados</a>
+
+# <a href="https://jorgeucano.gitbook.io/entendiendo-angular/capitulo-8-router/capitulo-7-router">8 - Router</a>

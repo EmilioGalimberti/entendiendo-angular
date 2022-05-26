@@ -9,10 +9,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InputComponent } from './input/input.component';
-import { OutputComponent } from './output/output.component';
-import { CustomDirectivesDirective } from './customDirectives/custom-directives.directive';
 
+//components
+import { InputComponent } from './components/input/input.component';
+import { OutputComponent } from './components/output/output.component';
+import { CustomDirectivesDirective } from './components/customDirectives/custom-directives.directive';
+import { HomeComponent } from './components/home/home.component';
+
+//Router
 
 
 /*NgModule es un decorador que se utiliza en app.module.ts  @NgModule toma un objeto de metadatos 
@@ -24,9 +28,13 @@ que indica a Angular cómo compilar y ejecutar código de módulo*/
   Tambien vamos a declarar nuestras Directivas*/
   declarations: [
     AppComponent,
+    //directives
+    CustomDirectivesDirective,
+    //components
     InputComponent,
     OutputComponent,
-    CustomDirectivesDirective,
+    HomeComponent
+
     
   ],
   /*Imports: este arreglo va a tener "normalmente" lo que contiene  *Module , lo que quiere decir 
@@ -36,7 +44,8 @@ que indica a Angular cómo compilar y ejecutar código de módulo*/
   foorRoot le indicamos un tipo de objeto que tiene las rutas de cada uno de los componentes.*/
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule  //rputing
+    
   ],
   /*Providers: aquí tendremos otro arreglo en el cual vamos a poner todos nuestros servicios, 
   nuestros providers, todo lo que contenga "@Injectable", estos servicios se levantan en el

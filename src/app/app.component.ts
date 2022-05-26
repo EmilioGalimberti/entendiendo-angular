@@ -5,7 +5,7 @@ import { Component} from '@angular/core';
 por lo tanto de todas las que tiene va a traer "Component".*/
 
 //import component
-import { InputComponent }  from './input/input.component';
+import { InputComponent }  from './components/input/input.component';
 
 import { Router } from '@angular/router';
 @Component({
